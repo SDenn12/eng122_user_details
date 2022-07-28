@@ -65,4 +65,4 @@ f"The type of the salary is {type(salary)} \nThe type of the course is {type(cou
 
 
 information()
-sys.exit()
+sys.exit()  # system exit
