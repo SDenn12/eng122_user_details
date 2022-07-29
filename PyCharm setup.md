@@ -1,4 +1,4 @@
-# PyCharm setup for Windows OS
+# PyCharm setup for Windows OS for Python
 
 - #### Go to `https://www.jetbrains.com/pycharm/download/#section=windows`
 
@@ -17,4 +17,9 @@
 
 ![image](https://user-images.githubusercontent.com/110126036/181753484-35df440a-e63f-4bbb-bd25-e18ae25b7286.png)
 
-#### You now have successfully installed PyCharm.
+- #### You now have successfully installed PyCharm.
+
+- #### When creating a project you want to ensure that you have your latest version of Python in your interpreter.
+This can be done by ensuring that it is globally accessible (see Python setup document)
+
+- #### You are now ready to start coding in Python!
