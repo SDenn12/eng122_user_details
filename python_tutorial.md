@@ -1,6 +1,6 @@
 # Python Download Tutorial
 
-#### Go to `https://www.python.org/downloads/` and press the download button for the latest version of Python.
+#### 1- Go to `https://www.python.org/downloads/` and press the download button for the latest version of Python.
 
 ![image](https://user-images.githubusercontent.com/110126036/181735534-e0f4ba96-9c15-4574-b786-909b3c284b67.png)
 
