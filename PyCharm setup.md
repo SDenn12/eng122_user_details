@@ -22,4 +22,7 @@
 - #### When creating a project you want to ensure that you have your latest version of Python in your interpreter.
 This can be done by ensuring that it is globally accessible (see Python setup document)
 
+![image](https://user-images.githubusercontent.com/110126036/181754254-d67c9226-335c-4d59-8eb9-555c48cf5939.png)
+
+
 - #### You are now ready to start coding in Python!
