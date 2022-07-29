@@ -1,12 +1,12 @@
 # Python Download Tutorial
 
-#### 1- Go to `https://www.python.org/downloads/` and press the download button for the latest version of Python.
+- #### Go to `https://www.python.org/downloads/` and press the download button for the latest version of Python.
 
 ![image](https://user-images.githubusercontent.com/110126036/181735534-e0f4ba96-9c15-4574-b786-909b3c284b67.png)
 
 ####
 ####
-#### Ensure that the bottom two boxes are checked. This is to make this version of Python global on your PC. 
+- #### Ensure that the bottom two boxes are checked. This is to make this version of Python global on your PC. 
 #### Then proceed to press install button.
 ####
 ####
@@ -15,7 +15,7 @@
 
 ####
 ####
-#### The setup should be complete.
+- #### The setup should be complete.
 #### 
 ####
 
@@ -23,9 +23,12 @@
 
 ####
 ####
-#### You can then verify that you have downloaded the latest version of Python in your terminal window.
+- #### You can then verify that you have downloaded the latest version of Python in your terminal window.
 ####
 ####
 
 
 ![image](https://user-images.githubusercontent.com/110126036/181736564-525167bd-111c-4d99-aa60-38310f569735.png)
+
+
+#### If the latest version has appeared then you have successfully installed Python.
