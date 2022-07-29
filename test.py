@@ -14,12 +14,14 @@
 import sys
 
 
+# sets the user name
 def name():
     first_name = input("What is your first name? ")
     last_name = input("What is your last name ")
     return first_name, last_name
 
 
+# sets the age and verifies an integer is entered
 def age_check():
     try:
         age = int(input("What is your age? "))
@@ -29,6 +31,7 @@ def age_check():
     return age
 
 
+# asks the user for their address, verifying it is the correct length
 def address_chk():
     address = input("What is your postcode? ")
     if 6 <= len(address) <= 7:
@@ -39,11 +42,13 @@ def address_chk():
     return address
 
 
+# asks the user for their salary, converting to a float
 def salary_chk():
     salary = float(input("What is your salary? "))
     return salary
 
 
+# ensures that the individual is on the devops team
 def course_chk():
     course = input("What is your course? ")
     if course.upper() == "DEVOPS":
@@ -53,6 +58,7 @@ def course_chk():
         sys.exit()
 
 
+# complies all of the information and returns the desired result
 def information():
     f_n, l_n = name()
     address = address_chk()
