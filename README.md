@@ -1,18 +1,20 @@
 # Python Introduction
 ###
-### Python Variables
+### Python Operators
 ###
-##### Markdown basics
-
-- To add an image `![](path of the image)`
-- For a block of code use ``` block of code 
-- To add a line of code 
-  - `git add .` the dot includes all files, 
-  - `git commit -m "logical message"`
-  - `git push -u origin main`
-
-[Github page](https://github.com/SDenn12/)
-### 
-##### Github set up with HTTPS
-
-##### Github set up with SSH
+#### Two types of Operators
+##### Arithmetic Operators
+- `+ - * /`
+- `+` adds two operands (variables)
+- `-` subtracts
+- `*` multiply
+- `/` divide
+- `**` exponent
+- `%` returns remainder
+##### Comparison Operators 
+- `>` greater than
+- `<` less than
+- `==` is equal to
+- `!=` not equal to
+- `>=` greater than or equal to
+- `<=` less than or equal to
