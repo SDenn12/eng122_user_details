@@ -41,3 +41,6 @@ print(greeting.isdigit())
 print(greeting.__contains__("Hello"))
 print(greeting.endswith("d"))
 ```
+##### String Concatenation Casting
+
+Index in Python starts with 0.
