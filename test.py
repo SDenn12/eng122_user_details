@@ -1,16 +1,3 @@
-# what are variables
-# types of variables
-
-# name = "Sam"
-# age = 10
-# salary = 15.5
-#
-# print(f"{name} + {age}")
-#
-# print(type(name))
-# print(type(age))
-# print(type(salary))4
-
 import sys
 
 
