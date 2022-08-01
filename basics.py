@@ -26,18 +26,22 @@
 # print(greeting[:-7:-1])
 # print(greeting[:6])
 
-example_string = "james         "
-print(len(example_string))  # returns 14
-print(len(example_string.strip(" ")))  # returns 5
+# example_string = "james         "
+# print(len(example_string))  # returns 14
+# print(len(example_string.strip(" ")))  # returns 5
+#
+# print(example_string.capitalize())  # returns James
+# print(example_string.count("a"))
+#
+# example_text = "here's some text With lots of text"
+# print(example_text.lower().capitalize())
+# print(example_text)
+#
+# print(example_text.replace("With", ","))
 
-print(example_string.capitalize())  # returns James
-print(example_string.count("a"))
-
-example_text = "here's some text With lots of text"
-print(example_text.lower().capitalize())
-print(example_text)
-
-print(example_text.replace("With", ","))
-
-
-
+first_name = "James"
+last_name = "Bond"
+middle_name = "007"
+age = 47
+print(f"{first_name} {middle_name} {last_name} {age}")
+print(first_name + " " + middle_name + " " + last_name + " " + str(age))
