@@ -69,8 +69,9 @@ print(example_text)
 print(example_text.replace("With", ","))
 ```
 ### .gitignore
-- Create a text file in the root directory
-- 
+- Create a text file in the root directory, and add the files that you wish to be ignored to it as follows.
+![image](https://user-images.githubusercontent.com/110126036/182197546-413828be-18b9-412a-abd6-6d119de7e411.png)
+
 ###
 ## Definition of Ready 
 - Create a new repo called user_details
