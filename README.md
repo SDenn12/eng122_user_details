@@ -45,10 +45,10 @@ print(greeting.endswith("d"))
 
 Index in Python starts with 0.
 ####
-`python
+```python
 greeting = "Hello World!"
 print(len(greeting))
 print(greeting[4:])
 print(greeting[:-7:-1])
 print(greeting[:6])
-`
+```
