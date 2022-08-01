@@ -44,3 +44,11 @@ print(greeting.endswith("d"))
 ##### String Concatenation Casting
 
 Index in Python starts with 0.
+####
+`python
+greeting = "Hello World!"
+print(len(greeting))
+print(greeting[4:])
+print(greeting[:-7:-1])
+print(greeting[:6])
+`
