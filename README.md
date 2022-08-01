@@ -52,3 +52,18 @@ print(greeting[4:])
 print(greeting[:-7:-1])
 print(greeting[:6])
 ```
+##### More String functions
+```python
+example_string = "james         "
+print(len(example_string))  # returns 14
+print(len(example_string.strip(" ")))  # returns 5
+
+print(example_string.capitalize())  # returns James
+print(example_string.count("a"))
+
+example_text = "here's some text With lots of text"
+print(example_text.lower().capitalize())
+print(example_text)
+
+print(example_text.replace("With", ","))
+```
