@@ -1,6 +1,4 @@
 # User Details Task
-## String Concatenation
-
 ### Python Operators
 ###
 #### Two types of Operators
@@ -42,7 +40,8 @@ print(greeting.isdigit())
 print(greeting.__contains__("Hello"))
 print(greeting.endswith("d"))
 ```
-##### String Concatenation Casting
+## Strings
+### String Indexing
 
 Index in Python starts with 0.
 ####
@@ -63,10 +62,19 @@ print(example_string.capitalize())  # returns James
 print(example_string.count("a"))
 
 example_text = "here's some text With lots of text"
-print(example_text.lower().capitalize())
+print(example_text.lower().capitalize())  # converts to lower case then capitalizes the string
 print(example_text)
 
 print(example_text.replace("With", ","))
+```
+### String Concenatration
+```python
+first_name = "James"
+last_name = "Bond"
+middle_name = "007"
+age = 47
+print(f"{first_name} {middle_name} {last_name} {age}")
+print(first_name + " " + middle_name + " " + last_name + " " + str(age))
 ```
 ### .gitignore
 - Create a text file in the root directory, and add the files that you wish to be ignored to it as follows.
