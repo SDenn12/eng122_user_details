@@ -1,10 +1,9 @@
 import sys
 
-
 # sets the user name
 def name():
-    first_name = input("What is your first name? ")
-    last_name = input("What is your last name ")
+    first_name = input("What is your first name? ").lower().capitalize()
+    last_name = input("What is your last name ").lower().capitalize()
     return first_name, last_name
 
 
@@ -52,9 +51,7 @@ def information():
     salary = salary_chk()
     course = course_chk()
     age = age_check()
-    print(f"Welcome {f_n} {l_n}. \n\nYour age is {age}, postcode is {address}, course is {course}, salary is {salary}."
-          f"\n\nThe type of the address variable is {type(address)} \n"
-f"The type of the salary is {type(salary)} \nThe type of the course is {type(course)})")
+    print(f"Welcome {f_n} {l_n}. \n\nYour age is {age}, postcode is {address}, course is {course}, salary is {salary}.")
 
 
 information()
