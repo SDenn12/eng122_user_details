@@ -85,8 +85,8 @@ import sys
 
 # sets the user name
 def name():
-    first_name = input("What is your first name? ")
-    last_name = input("What is your last name ")
+    first_name = input("What is your first name? ").lower().capitalize()
+    last_name = input("What is your last name ").lower().capitalize()
     return first_name, last_name
 
 
@@ -145,13 +145,16 @@ sys.exit()  # system exit
 ```
 ###
 ## Definition of Ready 
+- Github account setup
+- HTTPS/SSH connection established
+- Python IDE installed
+
+## Definition of Done
 - Create a new repo called user_details
 - create a new project in pycharm for this task
 - add a README.md for this task with complete documentation
 - explain how to create a .gitignore file in your pycharm
 - explain string concatenation 
 - ignore any dependencies not required to be pushed to github
-
-## Definition of Done
 - Video presenting the above.
 - Github page documentation also describing the above.
